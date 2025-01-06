@@ -9,6 +9,7 @@ describe("changeContext()", function () {
 
     let bat = {
       secret: "I'm scared of the dark",
+      getSecret: getSecret,
     };
 
     function getSecret() {
